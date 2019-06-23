@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+
+  a {
+    text-decoration: none;
+  }
+
+  ul,
+  li {
+    list-style-type: none;
+  }
+}
+
+.profileImg {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(231, 49, 95);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.6);
+  margin: 4em 3em 2em 3em;
+  background-size: "contain";
+  position: relative;
+}
+
+.username {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.email {
+  color: rgb(216, 216, 216);
+  font-weight: 100;
+  text-align: center;
+}
+
+.usericon {
+  font-size: 3.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
